@@ -44,8 +44,8 @@ class MainActivity : AppCompatActivity(),SensorEventListener {
         TODO("Not yet implemented")
     }
     private fun updateColorIndicator(temperature: Float) {
-        val blue = kotlin.math.max(0, 255 - (temperature * 2).toInt())
-        val green = kotlin.math.min(255, (temperature * 2).toInt())
+        val blue = kotlin.math.max(0, 255 - (temperature * 3).toInt())
+        val green = kotlin.math.min(255, (temperature * 3).toInt())
         val red = 0
 
 
